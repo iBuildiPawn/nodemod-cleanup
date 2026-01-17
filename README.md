@@ -17,6 +17,21 @@
 
 Your disk called. It wants its space back.
 
+## Requirements
+
+- [Bun](https://bun.sh) v1.0+
+
+```bash
+# Install Bun (macOS, Linux, WSL)
+curl -fsSL https://bun.sh/install | bash
+
+# or with Homebrew
+brew install oven-sh/bun/bun
+
+# or with npm (why though?)
+npm install -g bun
+```
+
 ## Install
 
 ```bash
