@@ -1,0 +1,21 @@
+{
+  "name": "nodemod-cleanup-bun",
+  "version": "1.0.0",
+  "description": "Interactive CLI tool to scan and delete node_modules directories (Bun version)",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "keywords": [
+    "node_modules",
+    "cleanup",
+    "cli",
+    "disk-space",
+    "bun"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0"
+  }
+}
